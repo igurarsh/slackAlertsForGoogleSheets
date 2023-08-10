@@ -1,3 +1,10 @@
+/** 
+Using Google App Script, this script can read data from Google Sheets, Sort it and send a Custom Alert on Slack using the Slack App Webhook.
+Use case example: 
+
+Use Google App Script to trigger this script each time a new Form response is captured in Google Sheets
+*/
+
 /** Function to Sort Responses in Google Sheet */
 function sortResponses() {
   var sheet = SpreadsheetApp.getActive().getSheetByName("Enter the Sheet tab name here");
